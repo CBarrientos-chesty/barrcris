@@ -1,0 +1,67 @@
+<!-- Author: Your Name -->
+<!-- This is an enhanced version of a palindrome checker with input validations and creative UI elements. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> 0148 Palindromes</title>
+  <style>
+    /* Center everything on the page */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f8ff; /* Light blue background */
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Style the input fields and buttons */
+    input, button {
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+    }
+
+    /* Add some styling for the result display */
+    #result {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    /* Add a decorative element */
+    img {
+      width: 150px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Palindrome Checker</h1>
+
+  <!-- Input for first name -->
+  <input type="text" id="firstName" placeholder="Enter your first name">
+
+  <!-- Input for last name -->
+  <input type="text" id="lastName" placeholder="Enter your last name">
+
+  <!-- Input for ZIP code -->
+  <input type="text" id="zipCode" placeholder="Enter your ZIP code">
+
+  <!-- Input for palindrome text -->
+  <input type="text" id="textInput" placeholder="Enter text to check for palindrome">
+
+  <!-- Button to trigger the validation and palindrome check -->
+  <button onclick="validateInputs()">Submit</button>
+
+  <!-- Paragraph to display results -->
+  <p id="result"></p>
+
+  <!-- Decorative image -->
+  <img src="https://via.placeholder.com/150" alt="Decorative Element">
+
+  <!-- Link to external JavaScript file -->
+  <script src="strings.js"></script>
+</body>
+</html>
